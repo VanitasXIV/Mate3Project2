@@ -1,10 +1,9 @@
 import tensorflow as tf
 from tensorflow import keras
-from tensorflow.keras import Sequential
-from tensorflow.keras.layers import Conv2D
-from tensorflow.keras.layers import MaxPooling2D
-from tensorflow.keras.layers import Dense
-from tensorflow.keras.layers import Flatten
-import numpy as np
-import matplotlib.pyplot as plt
 
+#Definimos el tamaño de las imágenes
+img_height, img_width = 128, 128
+batch_size = 32
+data_dir = "dataset_billetes"
+
+#1. Carga del conjunto de entrenamiento
