@@ -5,3 +5,5 @@ venv/
 # Ignorar archivos de caché
 __pycache__/
 *.pyc
+
+resultados/
